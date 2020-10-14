@@ -1,0 +1,53 @@
+.image-viewer{
+    position: fixed!important;
+    z-index: 50;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+
+    &.image-viewer-active{
+        display: block;
+    }
+
+    .image-viewer-content {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.snap-wrapper {
+    width: 100%;
+    height: 100%;
+
+    .snap-content {
+        width: 100%;
+        height: 100%;
+        white-space: nowrap;
+    }
+}
+
+.zoom-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    
+    &+.zoom-wrapper {
+        margin-left: 15px;
+    }
+
+    .zoom-content{
+        position: relative;
+    }
+
+
+
+    .zoom-img {
+        position: absolute;
+        vertical-align: middle;
+        transform-origin: 0 0;
+    }
+}

@@ -1,0 +1,65 @@
+.swipe-cell {
+    background: #f8f8f8;
+  }
+  
+  .swipe-cell-content{
+    width: 100%;
+    
+  }
+  
+  .swipe-cell-btns {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    overflow: hidden;
+  
+    &.left{
+      left: 0;
+  
+      .swipe-cell-btn {
+        justify-content: flex-end;
+      }
+    }
+  
+    &.right{
+      right: 0;
+  
+      .swipe-cell-btn {
+        justify-content: flex-start;
+      }
+    }
+  
+    .swipe-cell-btn {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      flex: 1;
+      padding: 0 20px;
+      color: #fff;
+      font-size: 16px;
+      overflow: hidden;
+
+      &.default{
+        background: rgb(78, 77, 77);
+      }
+  
+      &.success {
+        background: #06b75b;
+      }
+  
+      &.danger {
+        background: rgb(255, 58, 50);
+      }
+  
+      &.warning {
+        background: #ffb836;
+      }
+  
+      .btn-text {
+        white-space: nowrap;
+      }
+    }
+  }

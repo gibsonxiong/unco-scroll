@@ -1,0 +1,39 @@
+.scrollview {
+    position: relative;
+    box-sizing: content-box;
+    overflow: hidden;
+
+    /*隐藏滚动条，当IE下溢出，仍然可以滚动*/
+    -ms-overflow-style: none;
+    /*火狐下隐藏滚动条*/
+    scrollbar-width: none;
+    // background-color: #eee;
+
+    &::-webkit-scrollbar{
+        width: 0px;
+    }
+}
+
+.scrollview-content {
+    position: relative;
+    z-index: 1;
+
+    transform-origin: 0 0;
+    // background-color: #fff;
+
+    white-space: initial;
+}
+
+.scrollview-mask{
+    display: none;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index:10;
+
+    &.scrollview-mask-active{
+        display: block!important;
+    }
+}

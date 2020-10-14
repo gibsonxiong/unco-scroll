@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: #f00;
+        }
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">
+        <div id="box2" class="box">
+            <div id="box3" class="box">
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var box1 = document.getElementById('box1');
+        var box2 = document.getElementById('box2');
+        var box3 = document.getElementById('box3');
+
+        window.event1 = null;
+        window.event2 = null;
+        window.event3 = null;
+
+        window.event4 = null;
+        window.event5 = null;
+        window.event6 = null;
+
+        // 6
+        box1.addEventListener('click', function(event) {
+            debugger;
+            window.event1 = event;
+        });
+
+        // 5
+        box2.addEventListener('click', function(event) {
+            debugger;
+            window.event2 = event;
+        });
+
+        // 3
+        box3.addEventListener('click', function(event) {
+            debugger;
+            window.event3 = event;
+        });
+
+        // 1
+        box1.addEventListener('click', function(event) {
+            debugger;
+            window.event4 = event;
+        }, true);
+
+        // 2
+        box2.addEventListener('click', function(event) {
+            debugger;
+            window.event5 = event;
+        }, true);
+
+        // 4
+        box3.addEventListener('click', function(event) {
+            debugger;
+            window.event6 = event;
+        }, true);
+
+    </script>
+</body>
+</html>

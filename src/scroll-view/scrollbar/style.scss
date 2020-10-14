@@ -1,0 +1,39 @@
+.scrollview-scrollbar {
+    z-index: 100;
+    position: absolute;
+}
+
+.scrollview-scrollbar.scrollbar-x {
+    height: 3px;
+    left: 2px;
+    right: 2px;
+    bottom: 3px;
+}
+
+.scrollview-scrollbar.scrollbar-y {
+    width: 3px;
+    top: 2px;
+    bottom: 2px;
+    right: 3px;
+}
+
+.scrollview-scrollbar .scrollbar-indicator {
+    opacity: 1;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 30px;
+}
+
+.scrollview-scrollbar .scrollbar-indicator.hidden {
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+.scrollview-scrollbar.scrollbar-x .scrollbar-indicator {
+    height: 100%;
+
+}
+
+.scrollview-scrollbar.scrollbar-y .scrollbar-indicator {
+    width: 100%;
+}
