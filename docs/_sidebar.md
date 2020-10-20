@@ -1,13 +1,13 @@
 - 入门
 
-    - [介绍](/)
-    - [安装](/installation.md)
-    - [起步](/getting-started.md)
+    - [起步](/)
+    - [安装使用](/installation.md)
 
 - API
 
     - [配置项](/options.md)
-    - [属性 & 方法](/property.md)
+    - [属性](/atrributes.md)
+    - [方法](/methods.md)
     - [事件](/events.md)
 
 - 进阶
@@ -16,9 +16,9 @@
 
 - 插件
 
-    - [插件介绍](/plugin.md)
-    - [滚动条](/scrollbar.md)
-    - [上拉 & 下拉](/pull-loader.md)
-    - [图片懒加载](/image-lazyload.md)
+    - [插件介绍](/plugins.md)
+    - [Scrollbar](/scrollbar.md)
+    - [PullLoader](/pull-loader.md)
+    - [Lazyload](/lazyload.md)
     - [Snap](/snap.md)
-    - [分页](/paging.md)
+    - [Pagin](/paging.md)

@@ -1,16 +1,19 @@
 {
   "name": "unco-scroll",
   "version": "0.0.1",
-  "description": "web滚动库",
-  "main": "dist/unco-scroll.min.js",
+  "description": "Smooth and easy to use mobile scrolling component",
+  "main": "lib/unco-scroll.min.js",
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "scroll",
-    "web",
-    "library"
+    "component",
+    "library",
+    "javascript",
+    "mobile",
+    "html5"
   ],
   "homepage": "https://github.com/gibsonxiong/unco-scroll",
   "author": "gibsonxiong",

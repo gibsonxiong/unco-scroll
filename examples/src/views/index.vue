@@ -98,7 +98,6 @@
 
 <script>
 /* eslint-disable */
-import BScroll from "better-scroll";
 import ScrollView from '../../../src/index';
 
 export default {
@@ -112,29 +111,17 @@ export default {
   },
   mounted(){
     const sv = new ScrollView(document.querySelector('.container'), {
-      // allowTouch: false,
-
       scrollbar:true,
 
       sticky: {
         selector: '.group-title'
       }
     });
-
-    // const sv = new BScroll(document.querySelector('.container'), {
-    //   click: true,
-    //   scrollbar: true
-    // });
   }
 }
 </script>
 
 <style lang="scss">
-// a{
-//   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-
-// }
-
 .frame{
   position: fixed;
   top:0;
