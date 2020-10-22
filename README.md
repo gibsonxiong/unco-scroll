@@ -40,12 +40,6 @@ new UScroll('.container', {
 
 unco-scroll 也支持按需引入、CDN 引入等方式，详细说明见 [安装使用](https://gibsonxiong.gitee.io/unco-scroll/#/installation).
 
-## 手机预览
-
-可以手机扫码以下二维码访问手机端 demo：
-
-<img src="https://img.yzcdn.cn/vant/preview_qrcode_20180528.png" width="220" height="220" >
-
 ## 浏览器支持
 
 现代浏览器以及 Android 4.0+, iOS 8.0+.

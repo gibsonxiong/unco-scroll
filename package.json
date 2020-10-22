@@ -1,6 +1,6 @@
 {
   "name": "unco-scroll",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Smooth and easy to use mobile scrolling component",
   "main": "lib/unco-scroll.min.js",
   "scripts": {

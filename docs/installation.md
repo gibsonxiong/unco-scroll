@@ -1,6 +1,6 @@
-## 安装使用
+# 安装使用
 
-### NPM 
+## NPM 
 
 ``` shell
 # 通过 npm 安装
@@ -29,7 +29,7 @@ const us = new UScroll('.container', {
 });
 ```
 
-### CDN
+## CDN
 
 ``` html
 <!-- 全部引入 -->
